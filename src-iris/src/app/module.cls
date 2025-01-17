@@ -5,7 +5,7 @@ Parameter Cors = 1;
 
 Parameter OASPath As %String = "Get:/_spec";
 
-Parameter DispatchClass As %String = "app.module";
+Parameter DispatchClass As %String = "app.api";
 
 /// When the Dispatch class is also a Business Service Component and has a different name
 Parameter DispatchBSName As %String;

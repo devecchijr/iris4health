@@ -46,9 +46,9 @@ ClassMethod CreateProjection(classname As %String) As %Status [ CodeMode = gener
         Set appPath=$Replace("/app/api","{namespace}",tCurrentNS)
         zn "%SYS" 
         Set webName = appPath
-        Set webProperties("DispatchClass") = "app.api" 
+        Set webProperties("DispatchClass") = "app.module" 
         Set webProperties("NameSpace") = tCurrentNS
-        Set webProperties("Description") = "app.api" 
+        Set webProperties("Description") = "App API" 
         Set webProperties("Enabled") = 1 
         Set webProperties("AutheEnabled") = 64 
         Set webProperties("DeepSeeEnabled")=1 
